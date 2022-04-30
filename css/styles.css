@@ -1,69 +1,66 @@
-button:hover{
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-weight: 500;
+}
+.nav-menu{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-menu:hover, .nav-menu:focus{
+    color: #2196F3;
+
+}
+.phonenum-ws, .email-ws{
+    line-height: 1;
+    font-size: 14px;
+}
+.connect-us{
+    color: #757575;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.contacts-footer:hover, .contacts-footer:focus{
+    color:#FFFFFF;
+}
+
+button{
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus{
     background: #2196F3;
-}
-
-button .all{
-    height: 16px;
-    width: 13.33331298828125px;
-    left: 1.3333740234375px;
-    top: 0px;
-    border-radius: 0px;
-}
-
-button .web-sites{
-    height: 38px;
-    width: 128px;
-    left: 576px;
-    top: 174px;
-    border-radius: 4px;
-}
-button .all{
-    height: 38px;
-    width: 145px;
-    left: 712px;
-    top: 174px;
-    border-radius: 4px;
-}
-button .design{
-    height: 38px;
-    width: 103px;
-    left: 865px;
-    top: 174px;
-    border-radius: 4px;
-}
-button .marketing{
-    height: 38px;
-    width: 130px;
-    left: 976px;
-    top: 174px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
-h2{
-height: 36px;
-width: 322px;
-left: 239px;
-top: 576px;
-border-radius: nullpx;
-color: #212121;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
+
+
+.nameof-projects{
+letter-spacing: 0.06em;
+line-height: 2;
 }
 
 p{
-    font-family: Roboto;
+
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
-    text-align: left;
     color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+
 }
