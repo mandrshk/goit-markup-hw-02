@@ -1,0 +1,120 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background: var(--primary-white-color);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.logo-webstudio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.nav-menu {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.nav-menu:hover,
+.nav-menu:focus {
+    color: var(--accent-color);
+}
+
+.header1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    background: #2F303A;
+    text-align: center;
+}
+.button {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+}
+
+.our-advantages{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.description-ofadv{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-color);
+}
+
+.whatdo-wedo{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.our-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.nameof-member{
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.profession-ofmember{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--secondary-color);
+}
+
+.connect-us {
+    color: var(--secondary-color);
+}
+
+.connect-us:hover,
+.connect-us:focus {
+    color: var(--primary-white-color);
+}
+
+.email-ws,
+.phonenum-ws {
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+}
+
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}

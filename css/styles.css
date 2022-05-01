@@ -1,66 +1,83 @@
+
+:root{
+    --primary-text-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--primary-text-color);
+    background: var(--primary-white-color);
     font-weight: 500;
-}
-.nav-menu{
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-.nav-menu:hover, .nav-menu:focus{
-    color: #2196F3;
-
-}
-.phonenum-ws, .email-ws{
-    line-height: 1;
-    font-size: 14px;
-}
-.connect-us{
-    color: #757575;
-    text-decoration: none;
     letter-spacing: 0.03em;
 }
-.contacts-footer:hover, .contacts-footer:focus{
-    color:#FFFFFF;
+
+.links{
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
-button{
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
+.logo-webstudio{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.nav-menu{
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.nav-menu:hover, .nav-menu:focus{
+    color: var(--accent-color);
+}
+
+.button{
     font-size: 16px;
+    line-height: 1.6;
     cursor: pointer;
 }
 
-button:hover,
-button:focus{
-    background: #2196F3;
-    color: #FFFFFF;
-    font-size: 16px;
-    background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+.button:hover, .button:focus{
+    background: var(--accent-color);
+    color: var(--primary-white-color);
 }
-
-
 
 .nameof-projects{
-letter-spacing: 0.06em;
-line-height: 2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;   
+    letter-spacing: 0.06em;
 }
 
-p{
-
-    font-size: 16px;
+.typeof-project{
+    color: var(--secondary-color);
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
-    color: #757575;
+}
 
+.connect-us{
+    color: var(--secondary-color);
+}
+
+.connect-us:hover, .connect-us:focus{
+    color: var(--primary-white-color);
+}
+
+.email-ws, .phonenum-ws{
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+}
+
+.contacts-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
 }
