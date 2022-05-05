@@ -1,83 +1,184 @@
-
-:root{
-    --primary-text-color: #212121;
-    --secondary-color: #757575;
-    --accent-color: #2196F3;
-    --primary-white-color: #ffffff;
+:root {
+  --primary-text-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+:root {
+  --primary-text-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color);
-    background: var(--primary-white-color);
-    font-weight: 500;
-    letter-spacing: 0.03em;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background: var(--primary-white-color);
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
-.links{
-    text-decoration: none;
-    color: var(--primary-text-color);
+.links {
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
 
-.logo-webstudio{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+.logospan {
+  color: var(--accent-color);
 }
 
-.nav-menu{
-    font-size: 14px;
-    line-height: 1.1;
+.logo-webstudio {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-.nav-menu:hover, .nav-menu:focus{
-    color: var(--accent-color);
+.nav-menu {
+  font-size: 14px;
+  line-height: 1.1;
 }
 
-.button{
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;
+.nav-menu:hover,
+.nav-menu:focus {
+  color: var(--accent-color);
 }
 
-.button:hover, .button:focus{
-    background: var(--accent-color);
-    color: var(--primary-white-color);
+.element-li {
+  list-style-type: none;
 }
 
-.nameof-projects{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;   
-    letter-spacing: 0.06em;
+.header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background: #2f303a;
+  text-align: center;
 }
 
-.typeof-project{
-    color: var(--secondary-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+.orderservice {
+  font-family: 'Roboto';
+  font-style: normal;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
-.connect-us{
-    color: var(--secondary-color);
+.our-advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
-.connect-us:hover, .connect-us:focus{
-    color: var(--primary-white-color);
+.description-ofadv {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-color);
 }
 
-.email-ws, .phonenum-ws{
-    font-size: 14px;
-    line-height: 1.1;
-    color: var(--secondary-color);
-    letter-spacing: 0.02em;
+.whatdo-wedo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 
-.contacts-footer{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.nameof-member {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.profession-ofmember {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+
+.button-p {
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button-p:hover,
+.button-p:focus {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.nameof-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.typeof-project {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.connect-us {
+  color: var(--secondary-color);
+}
+
+.connect-us:hover,
+.connect-us:focus {
+  color: var(--primary-white-color);
+}
+
+.email-ws,
+.phonenum-ws {
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--secondary-color);
+  letter-spacing: 0.02em;
+}
+
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+.our-address {
+  color: var(--primary-white-color);
 }
